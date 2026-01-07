@@ -24,7 +24,7 @@ const Header = () => {
         alt="WiseSplit+9 Logo"
         width={200}
         height={200}
-        className="h-11 w-auto object-contain"
+        className="h-15 w-auto object-contain"
         />
         </Link>
 
