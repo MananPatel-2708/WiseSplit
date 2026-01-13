@@ -40,7 +40,7 @@ export default defineSchema({
     groups: defineTable({
         name: v.string(),
         description: v.optional(v.string()),
-        createBy: v.id("users"),
+        createdBy: v.id("users"),
         members: v.array(
             v.object({
                 userId: v.id("users"),
